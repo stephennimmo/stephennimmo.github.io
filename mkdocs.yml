@@ -1,4 +1,18 @@
 site_name: stephennimmo.github.io
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: #528df2
+  icon:
+    logo: material/plus
+  features:
+    - navigation.instant
+    - navigation.tabs
+
+nav:
+    - Home: 'index.md'
+    - Development: 'development.md'
+    - Trading: 'trading.md'
+    - About: 'about.md'
 
